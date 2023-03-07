@@ -1,0 +1,48 @@
+name: alpim_bank
+description: A new Flutter project.
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/montanha.png
+    - assets/images/montanha.gif
+    - assets/images/montanha.png
+    - assets/images/man-climbing-on-mountain.png
+    - assets/icons/mastercard.png
+    - assets/icons/menu.png
+
+  #fonts:
+  #  - family: Bebas
+  #      fonts:
+  #       - asset: assets/fonts/bebas/Bebas-Regular.otf
+  #        - asset: assets/fonts/bebas/Bebas-Regular.ttf
+  #
+  #  - family: Couture
+  #      fonts:
+  #       - asset: assets/fonts/couture/couture-bld.otf
+   #      - asset: assets/fonts/couture/couture-bldit.otf
+
+  #  - family: Nexa
+  #      fonts:
+  #       - asset: assets/fonts/nexa/Nexa-ExtraLight.ttf
+  #       - asset: assets/fonts/nexa/Nexa-Heavy.tff
