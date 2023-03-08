@@ -1,3 +1,4 @@
+import 'package:alpim_bank/app/views/cadastro_page.dart';
 import 'package:alpim_bank/app/views/login_page.dart';
 import 'package:flutter/material.dart';
 
@@ -19,6 +20,7 @@ class App extends StatelessWidget {
       routes: {
         '/': (context) => const HomePage(),
         '/LoginPage': (context) => const LoginPage(),
+        '/CadastroPage': (context) => const CadastroPage(),
         '/MainPage': (context) => const MainPage(),
       },
     );

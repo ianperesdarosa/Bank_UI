@@ -8,9 +8,14 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
+          const Padding(
+            padding: EdgeInsets.only(top:70.0),
+            child: Text('Welcome!', style: TextStyle(fontSize: 30.0,fontWeight: FontWeight.w500),),
+          ),
           Padding(
-            padding: const EdgeInsets.only(top:50.0, bottom: 30.0),
+            padding: const EdgeInsets.only(top:20.0, bottom: 30.0),
             child: Center(
               child: SizedBox(
                 width: 250.0,
@@ -19,12 +24,8 @@ class HomePage extends StatelessWidget {
                 ),
             ),
           ),
-          const Padding(
-            padding: EdgeInsets.all(20.0),
-            child: Text('WELCOME!', style: TextStyle(fontSize: 30.0,fontWeight: FontWeight.w500),),
-          ),
           Padding(
-            padding: const EdgeInsets.only(top:280.0),
+            padding: const EdgeInsets.only(top:250.0),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [

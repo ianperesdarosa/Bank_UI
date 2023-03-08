@@ -28,7 +28,7 @@ class ViewLoginPage extends StatelessWidget {
               keyboardType: TextInputType.emailAddress,
               decoration: const InputDecoration(
                 border: OutlineInputBorder(),
-                hintText: 'E-mail ou CPF'
+                labelText: 'E-mail ou CPF'
               ),
             ),
           ),
@@ -39,7 +39,7 @@ class ViewLoginPage extends StatelessWidget {
               obscureText: true,
               decoration: const InputDecoration(
                 border: OutlineInputBorder(),
-                hintText: 'Senha'
+                labelText: 'Senha'
               ),
             ),
           ),
@@ -57,7 +57,7 @@ class ViewLoginPage extends StatelessWidget {
             padding: const EdgeInsets.all(8.0),
             child: TextButton(
               onPressed: () {
-                  
+                  Navigator.pushNamed(context, '/CadastroPage');
               }, 
             child: const Text('Cadastrar-se', style: TextStyle(fontSize: 15.0, fontWeight: FontWeight.w400),),
             ),
