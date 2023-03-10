@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../components/pages/login_page-comp.dart';
+import '../widgets/pages/login_page-comp.dart';
 
 
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../components/pages/cadastro_page-comp.dart';
+import '../widgets/pages/cadastro_page-comp.dart';
 
 class CadastroPage extends StatelessWidget {
   const CadastroPage({super.key});
