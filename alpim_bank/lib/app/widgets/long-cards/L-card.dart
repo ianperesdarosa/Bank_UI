@@ -14,28 +14,34 @@ class _LCardState extends State<LCard> {
     return Container(
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(12.0),
-        color: const Color.fromARGB(255, 180, 180, 180),
+        color: const Color.fromARGB(190, 187, 187, 187),
       ),
       width: 290.0,
       height: 60.0,
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.center,
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          SizedBox(
-            height: 80.0,
-            child: Image.network('https://cdn-icons-png.flaticon.com/512/5525/5525174.png'),
-          ),
-          Container(
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(12),
-              color: const Color.fromARGB(155, 219, 219, 219),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: SizedBox(
+              height: 40.0,
+              child: Image.network('https://cdn-icons-png.flaticon.com/512/5525/5525174.png'),
             ),
-            width: 120.0,
-            height: 50.0,
-            child: const Center(
-              child: Text('+89', style: TextStyle(fontSize: 20.0),),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(12),
+                color: const Color.fromARGB(155, 252, 252, 252),
               ),
+              width: 120.0,
+              height: 50.0,
+              child: const Center(
+                child: Text('+ 89', style: TextStyle(fontSize: 20.0, color: Color.fromARGB(255, 7, 129, 11)),),
+                ),
+            ),
           ),
         ],
       ),

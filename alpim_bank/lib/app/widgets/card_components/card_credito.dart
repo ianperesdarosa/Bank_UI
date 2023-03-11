@@ -6,7 +6,7 @@ class Card2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 340.0,
+      width: 320.0,
       height: 230.0,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(12.0),
